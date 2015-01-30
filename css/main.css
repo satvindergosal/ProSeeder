@@ -1,0 +1,199 @@
+body {
+	background: #000000 !important;
+}
+#loginPage
+{
+	height: 100% !important;
+}
+#loginPage #pageContainer1 {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	overflow: auto;
+}
+#loginPage .login_heading {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	text-shadow: none !important;
+	padding: 0 0 5px 8px;
+}
+#loginPage #login_box {
+	padding-bottom: 12px;
+	width: 94%;
+	margin: 14px auto;
+}
+#loginPage .lbl {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #686868;
+	font-size: 14px;
+	font-weight: bold;
+	width: 22%;
+	float: left;
+	padding: 14px 0 0 4%;
+}
+
+#loginPage .inpt input.click:hover, #loginPage .inpt input.click:active, #loginPage .inpt input.click:focus {
+	outline: none;
+}
+#loginPage .doted_hor {
+	background: url(images/doted_line.png) repeat-x bottom;
+	height: 2px;
+	display: block;
+	width: 94%;
+	margin: 0 auto;
+	padding: 12px 0 0 0;
+}
+#loginPage a.sign_btn {	
+	color:#fff;	
+	background: #1e5799;
+	background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#2989d8));
+	background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 100%);
+	background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 100%);
+	background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 100%);
+	background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2989d8',GradientType=0 );	
+	height: 36px;
+    line-height: 36px;
+
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: none;
+	padding: 5px 0 0 0;
+	cursor: pointer;
+	display: block;
+	
+	margin-top: 5px;
+	
+	width: 100%;
+	
+	padding: 0px;
+	margin: 18px auto;
+}
+
+#loginPage a.sign_btn:hover {	
+    background: #061f4f;
+	background: #113373; 
+	background: -moz-linear-gradient(top, #113373 0%, #061f4f 99%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#113373), color-stop(99%,#061f4f)); 
+	background: -webkit-linear-gradient(top, #113373 0%,#061f4f 99%);
+	background: -o-linear-gradient(top, #113373 0%,#061f4f 99%); 
+	background: -ms-linear-gradient(top, #113373 0%,#061f4f 99%); 
+	background: linear-gradient(top, #113373 0%,#061f4f 99%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#113373', endColorstr='#061f4f',GradientType=0 );
+
+	height: 36px;
+    line-height: 36px;
+}
+.Content_Wrapper {
+	padding-bottom: 20px;
+	margin: 0 auto 0 0;
+	padding: 10px 0 0px;
+	width: 100%;
+}
+#loginPage .lbl {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #686868;
+	font-size: 14px;
+	font-weight: bold;
+	width: 22%;
+	float: left;
+	padding: 14px 0 0 4%;
+}
+#loginPage .inpt {
+	width: 100%;
+	float: left;
+	padding: 7px 0% 0 0% !important;
+}
+#loginPage .inpt input.click {
+	color: #686868;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	outline: none;
+	padding: 0 0 0 2%;
+}
+.clr {
+   clear: both;
+}
+#loginPage .doted_hor {
+	background: url(images/doted_line.png) repeat-x bottom;
+	height: 2px;
+	display: block;
+	width: 94%;
+	margin: 0 auto;
+	padding: 12px 0 0 0;
+}
+
+#loginPage .not_reg {
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #000;
+	font-weight: normal;
+	text-shadow: none;
+	padding: 40px 0 0;
+	font-size: 13px;
+}
+.signInDiv {
+  width: 94%;
+  margin: 0 auto;
+}
+.logoMain
+{
+	padding-bottom: 12px;
+	width: 94%;
+	margin: 17px auto;
+}
+/*#loginPage a.sign_btn {
+	background: #061f4f;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 5px;
+	display: block;
+	padding: 0px !important;
+	margin: 18px auto !important;
+}*/
+#loginPage .logo {
+	width: 100%;
+	text-align: center;
+	padding: 77px 0 0px 0;
+	border-bottom: 1px solid #686868;	
+}
+.rem_chk
+{
+	float:right;
+	text-decoration: underline;
+	font-size: 17px;
+	cursor: pointer;
+}
+.rem_chk a
+{
+	color: #000 !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+.Loginchk
+{
+	width: 100%;
+	float: left;
+}
+.login_heading span
+{
+	color:#000;
+}
+.login_heading font
+{
+	color:#666;
+}
+.ui-icon-loading {
+	background:url(../images/ajax-loader.gif);
+	background-size: 46px 46px;
+	margin: 55% auto !important;
+}
