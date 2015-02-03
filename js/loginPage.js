@@ -11,20 +11,7 @@ function loginCheck()
 		 signHighLight = 0;		 
 		 $("#loginPage a.sign_btn").removeClass('highLightSign');
 	  }
-	
-	  loginInterval = setInterval(loginIntervalFun, 30000);
-	  function loginIntervalFun()
-	  {
-		 clearInterval(loginInterval);
-		 loginInterval = 0;
-		 $.mobile.hidePageLoadingMsg();
-		 
-		 <!--Unable to communicate with the server popUp Start-->
-		 serverNotCommunicate()   //Call to popup.js
-		 <!--Unable to communicate with the server popUp End-->
-				
-	  }
-	  
+
     $('input').blur();
 	$('#signIn').focus();
 
@@ -46,7 +33,24 @@ function loginCheck()
 		  {
 			if(_uName != '' && _pWord!= '') 
 			{
-				dasboardScreenStart()			   			
+				
+				 $.ajax({
+					type: "POST",          
+					url: "http://testangel.proseederstaging.com/api/auth/login?memberEmail=mobile@proseeder.com&siteId=1372453360006&password=goMobile2015",          
+					contentType: "application/json; charset=utf-8",
+					dataType: "json",
+					headers : {
+						licenseKey: 'Rqe9y9UDU5fQw2ox6WwuMSwNh3-lJAcBySazlA'
+					},
+					success: function (msg) {
+					  // alert('Success!' +JSON.stringify(msg));
+					   dasboardScreenStart()
+					},
+					error: function (errormessage) {		
+					   //alert("error" +JSON.stringify(errormessage)); //do something else
+		
+					}
+				});			   			
 			}
 		  }
 	}

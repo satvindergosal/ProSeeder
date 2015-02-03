@@ -1,7 +1,7 @@
 $(document).ready(function(e)
 {	
-	  //init();  // For Local Testing	 
-	document.addEventListener("deviceready",onDeviceReady,false);	
+	  init();  // For Local Testing	 
+	//document.addEventListener("deviceready",onDeviceReady,false);	
 });
 $(document).bind("mobileinit", function() 
 {
